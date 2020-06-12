@@ -23,7 +23,7 @@ a:link{text-decoration:none;}
   text-decoration: none;
     
 }
-body {
+#author body {
 	font-family: 'Montserrat', sans-serif;
 	color: #333;
 	line-height: 1.6;
@@ -41,7 +41,7 @@ body {
 	font-size: 24px;
 	font-family: Oleo Script;
 	margin-bottom: 0px;
-	margin-top:50px;
+	margin-top:20px;
 }
 .section-title h4 {
 	font-size: 40px;
@@ -68,7 +68,7 @@ body {
 	position: absolute;
 	left: 0px;
 	top: 0;
-	border: 1px solid #ddd;
+	border: 1px solid #ff630;
 	padding: 3px;
 	border-radius: 50%;
 	transition: .4s;
@@ -82,7 +82,7 @@ body {
 }
 .single_menu_list h4 {
 	font-size: 20px;
-	border-bottom: 1px dashed #333;
+	border-bottom: 1px dashed rgb(255, 255, 255);
 	padding-bottom: 15px;
 	margin-bottom: 10px;
 }
@@ -91,6 +91,7 @@ body {
 	font-weight: bold;
 	color: #FF5E18;
 	font-style: italic;
+	
 }
 p {
 	font-weight: 300;
@@ -103,10 +104,20 @@ p {
 	border-radius: 0;
 	transition: .4s;
 }
-
-
-
-
+/*menu background*/
+#portfolio{
+	
+	background-color:rgb(46, 46, 46);
+  }
+#portfolio{
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(255, 255, 255);
+	line-height: 1.6;
+}
+.page-section2 {
+	padding: 3rem 0;
+	background: rgb(68, 66, 70);
+  }
 /*
 .navbar {
     position: relative;
